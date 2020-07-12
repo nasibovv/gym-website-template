@@ -1,0 +1,287 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.container-fluid{
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+/*header{
+    backdrop-filter: blur(5px);
+} */
+.ml-auto{
+    margin-left: auto !important;
+}
+nav .navbar-nav li {
+    margin-right: 25px;
+    font-size: 17.4px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+nav .navbar-nav li a{
+    color: #fffafa !important;
+    }
+.btn-danger{
+    background-color: #EC563D !important;
+}
+
+.btn { border-radius: 0 !important;
+}
+.nm{
+    color: #EC563D;
+}
+.nm1{
+    color: #fffafa;
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 30px;
+}
+.navbar {
+    background:transparent !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+hr {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 9px 1px black;
+}
+hr:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+.col h5{
+    margin: 0, auto !important;
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.col h1{
+    margin: 0, auto !important;
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 80px;
+}
+
+.col h1 span{
+    color:#EC563D;
+}
+.member{
+    font-family: 'Montserrat', sans-serif !important;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
+.col h4{
+    padding-top: 100px;
+    color: #283C3D;
+    text-align: center;
+    font-size: 30px;
+}
+
+.col h4 span{
+    color: #EC563D;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.col img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.col h6{
+    text-align: center;
+    color: rgb(148, 148, 148);
+    width: 56%;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.col-6 img{
+    height: 5rem;
+    display: inline-block;
+}
+
+.col-6{
+    display: flex;
+   align-items:center;
+}
+
+.text{
+    text-align: left;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    line-height: 1.5em !important; 
+
+}
+
+.text h6{
+    color: rgb(148, 148, 148);
+    line-height: 25px;
+}
+
+.text a{
+    color: #EC563D;
+    text-decoration: none;
+}
+
+.choosen-program{
+    font-family: 'Roboto', sans-serif !important;
+    margin-bottom: 100px;
+}
+
+.col h2{
+    color: white;
+    margin-top: 170px;
+}
+
+.col h2 span{
+    color: #EC563D;
+}
+.page3-text .col h5{
+    padding-top: 40px;
+}
+
+.cards .col .training{
+    width: 100%;
+    margin: 40px 60px 0px 60px;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cards .col .training h5{
+    padding: 8px 15px 0 0;
+    color: #3f4441;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.white-button .btn-danger{
+    background-color: white !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: white;
+}
+
+
+.white-button .btn-danger:hover{
+    background-color: #EC563D !important;
+}
+
+.white-button .btn-danger:hover h5{
+    color: white;
+}
+
+.white-button .btn-danger .img-hover {
+    display: none;
+}
+
+.white-button .btn-danger:hover .img-hover{
+    display: inline;
+}
+
+
+/* View part */
+
+.schedule-button .btn-danger{
+    background-color: #EC563D !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: white;
+}
+.schedule-button .btn-danger:hover{
+    background-color: white !important;
+}
+ .schedule-button .btn-danger:hover h5{
+     color: #EC563D !important;
+     padding-top: 30px;
+     padding-right: 30px;
+ }
+
+ .schedule-button .btn-danger .img-hover {
+    display: none;
+}
+
+.schedule-button .btn-danger:hover .img-hover{
+    display: inline;
+}
+.schedule-button .btn-danger h5{
+    color:white !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* Rigth side */
+
+.right-side-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*.right-side-img .img{
+    border-radius: 50%;
+} */
+
+.page4-sidetext{
+    font-family: 'Roboto Condensed', sans-serif!important;
+    color: #3f4441;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.day1-info{
+    color: rgb(148, 148, 148);
+    font-family: 'Roboto', sans-serif !important;
+    margin: 20px 0 0 100px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+/* page 5 */
+
+table tr td, table tr th{
+    background-color: rgba(192, 176, 161, 0.3) !important;
+}
+
+.table{
+    margin: 50px 0 100px 50px;
+}
+
+table tr th, table tr td{
+    text-align: center !important;
+    color: white;
+    padding: 30px !important;
+}
+
+/* page 6 */
+  .card-deck{
+      margin: 40px 70px;
+  }
+
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .card p{
+    color: rgb(148, 148, 148);
+  }
+
+  .card h6{
+      color: #EC563D;
+      font-size: 15px;
+  }
+
